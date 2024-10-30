@@ -12,7 +12,7 @@ const jwt = require("jsonwebtoken");
 // middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow requests from your frontend
+    origin: "https://complete-foodi-client-two.vercel.app/", // Allow requests from your frontend
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
   })
 );
